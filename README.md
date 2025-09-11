@@ -6,13 +6,11 @@ This repository contains our final submission for the [IMC Prosperity 3](https:/
 - 109th globally out of 4,000+ teams  
 - 10th in France out of 300+ teams  
 
-[Prosperity 3 Wiki](https://imc-prosperity.notion.site/Prosperity-3-Wiki-19ee8453a09380529731c4e6fb697ea4)
-
 ---
 
 ## 📜 About Prosperity 3
 
-Prosperity 3 was a 15-day quantitative trading competition hosted by IMC, featuring five algorithmic rounds and five manual rounds.  
+Prosperity 3 was a 15-day quantitative trading competition hosted by IMC, featuring five algorithmic rounds and five manual rounds: [Prosperity 3 Wiki](https://imc-prosperity.notion.site/Prosperity-3-Wiki-19ee8453a09380529731c4e6fb697ea4).  
 
 Each round introduced new products — ranging from simple mean-reverting assets to option contracts and ETFs — while keeping all previous products live, forcing teams to design strategies that adapt to an increasingly complex market:  
 
