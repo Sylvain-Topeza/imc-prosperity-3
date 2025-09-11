@@ -66,41 +66,78 @@ Our final submission combined several complementary strategies. The code is writ
 - Adjusted our quoting edge dynamically based on recent fill volumes (adaptive edge tuning).  
 - Combined active conversion with market making, ensuring we consistently captured the tariff- and fee-adjusted spread.
 
----
+# AlphaBaguette 🥖
 
-## ⚖️ Risk Management
+Final submission for the [IMC Prosperity 3](https://prosperity.imc.com/) trading competition (2025).  
 
-- **Position limits:** strictly respected for all products.  
-- **Soft limits:** adaptive quoting logic slowed down new orders when inventories approached critical thresholds.  
-- **Stop-loss rules:** built into Olivia-based trades to reset state machines if positions filled too aggressively.  
-- **Delta hedging:** kept overall exposure on Volcanic Rock under control, while allowing for limited volatility bets.  
+**Result:** 109th globally (out of 4,000+ teams) and 10th in France (out of 300+ teams).  
 
 ---
 
-## 🚀 Results & Lessons
+## 📜 About Prosperity 3
 
-- Our hybrid approach allowed us to rank **109th worldwide** and **10th in France**, among more than 4,000 teams.  
-- We learned first-hand the importance of:
-  - Exploiting **structural inefficiencies** (like Olivia’s predictable trades),  
-  - Balancing **simple market making** with **signal-driven trades**,  
-  - Managing risk under tight position constraints.  
-- In hindsight, additional improvements could have included more aggressive basket arbitrage and refined statistical testing on option IV signals.  
+Prosperity is a 15-day algorithmic trading competition hosted by IMC.  
+Each round introduced new products while keeping all previous ones active, forcing teams to design strategies that adapt to an increasingly complex market:
 
----
-
-## 📈 Key Takeaways
-
-1. **Microstructure awareness beats complexity.** Understanding how bots traded (e.g., Olivia at extremes) created more alpha than overfitting fancy models.  
-2. **Diversification across strategies matters.** Market making, arbitrage, and options scalping each contributed at different times.  
-3. **Risk is everything.** Without strict position discipline, strategies that looked profitable in backtest would have collapsed in live runs.  
+- **Round 1:** basic assets (Resin, Kelp, Squid Ink).  
+- **Round 2:** composite products (Croissants, Jams, Djembes, Picnic Baskets).  
+- **Round 3:** options (Volcanic Rock + vouchers).  
+- **Round 4:** location arbitrage (Magnificent Macarons).  
+- **Round 5:** trader IDs revealed, enabling flow-based strategies.  
 
 ---
 
-## 🏁 Final Thoughts
+## 🧠 Strategy Overview
 
-Competing in Prosperity 3 was an intense crash-course in quantitative trading.  
-We are proud of AlphaBaguette’s performance: top 3% globally and top 10 in France.  
+Our final algorithm combined several quantitative approaches. Below is a structured overview of our strategies.
 
-This repo contains our **final algorithmic submission (Round 5)**. We hope it helps future participants understand how to combine **adaptive market making, arbitrage, and informed signals** into a coherent trading system.
+### **Round 1 – Market Making Foundation**
+- **Rainforest Resin & Kelp**  
+  - Used adaptive market making: posting buy orders slightly below fair value and sell orders above.  
+  - For Kelp, included a simple mean-reversion adjustment (Ornstein–Uhlenbeck style) to refine fair value estimation.  
+- **Squid Ink**  
+  - Introduced filters against small “toxic” orders.  
+  - Integrated a mode that followed Olivia’s trades once she was revealed (Round 5).
 
-🥖 *AlphaBaguette, signing off.*
+### **Round 2 – Basket Arbitrage**
+- **Picnic Basket 1**  
+  - Classical index arbitrage: compared basket mid-price to synthetic fair value (6 Croissants + 3 Jams + 1 Djembe).  
+  - Took positions whenever the deviation exceeded a fixed threshold.  
+- **Croissants & Jams**  
+  - Served as inputs to baskets but also traded individually.  
+  - Added informed trading on Croissants once Olivia’s pattern was identified.  
+- **Picnic Basket 2**  
+  - We chose not to run synthetic arbitrage. Instead, we tied Basket 2 execution directly to Croissant flows (see Round 5).
+
+### **Round 3 – Options Pricing**
+- **Volcanic Rock & Vouchers**  
+  - Implemented Black–Scholes pricing with delta computation.  
+  - Compared theoretical values to market mid-prices to detect mispricings.  
+  - Adjusted theoretical price slightly based on implied volatility z-scores.  
+  - Aggregated delta exposure across vouchers and hedged in the underlying Volcanic Rock.  
+
+### **Round 4 – Location Arbitrage**
+- **Magnificent Macarons**  
+  - Arbitraged between local order book and the external conversion market (with tariffs and fees).  
+  - Adaptive edge: quoting logic adjusted based on recent trading volumes.  
+  - Combined aggressive arbitrage (taking mispriced orders) with passive liquidity provision around the implied fair bid/ask.
+
+### **Round 5 – Trader IDs & Informed Signals**
+- **Olivia detection**  
+  - On **Croissants**: when Olivia bought from Caesar, we entered long; when she sold, we followed short.  
+  - On **Basket 2**: extended Croissant-based signals to baskets.  
+  - On **Squid Ink**: adapted position to Olivia’s trades, switching between aggressive buy/sell modes.  
+- This flow-based logic gave a clear edge over purely statistical approaches.
+
+---
+
+## ⚖️ Key Insights
+
+- **Microstructure over models:** The most consistent edge came from recognizing Olivia’s predictable trading, not from over-engineering signals.  
+- **Diversification mattered:** Resin/Kelp market making provided a stable base; baskets and options added bursts of PnL.  
+- **Risk control was critical:** Every strategy respected hard position limits, with soft limits to avoid concentration risk.  
+- **Adaptation each round:** From quoting basics to option pricing to informed flow, our bot evolved with the market.  
+
+---
+
+🥖 *AlphaBaguette – Final submission for IMC Prosperity 3 (2025)*  
