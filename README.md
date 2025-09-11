@@ -1,10 +1,12 @@
 # AlphaBaguette 🥖
 
-This repository contains our final submission for the [IMC Prosperity 3](https://prosperity.imc.com/) trading competition (2025).  
+This repository contains our final submission for the [IMC Prosperity 3](https://prosperity.imc.com/) trading competition (2025).
 
 **Final rank:**  
 - 109th globally out of 4,000+ teams  
 - 10th in France out of 300+ teams  
+
+[Prosperity 3 Wiki](https://imc-prosperity.notion.site/Prosperity-3-Wiki-19ee8453a09380529731c4e6fb697ea4)
 
 ---
 
