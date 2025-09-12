@@ -2,48 +2,9 @@
 
 This repository contains our final submission for the [IMC Prosperity 3](https://prosperity.imc.com/) trading competition (2025).
 
-## 👥 Contributors
-<p align="center">
-  <div style="display: inline-block; text-align: center; margin: 8px;">
-    <a href="https://github.com/nier2kirito">
-      <img src="https://github.com/nier2kirito.png" width="60" height="60" style="border-radius:50%" alt="Zakaria El Jaafari"/><br/>
-      <span style="font-size: 1.6em; font-weight: bold;">Zakaria El Jaafari</span>
-    </a>
-  </div>
-  <div style="display: inline-block; text-align: center; margin: 8px;">
-    <a href="https://github.com/Sylvain-Topeza">
-      <img src="https://github.com/Sylvain-Topeza.png" width="60" height="60" style="border-radius:50%" alt="Sylvain Topeza"/><br/>
-      <span style="font-size: 1.6em; font-weight: bold;">Sylvain Topeza</span>
-    </a>
-  </div>
-  <div style="display: inline-block; text-align: center; margin: 8px;">
-    <a href="https://github.com/Ante77">
-      <img src="https://github.com/Ante77.png" width="60" height="60" style="border-radius:50%" alt="Ante Ćubela"/><br/>
-      <span style="font-size: 1.6em; font-weight: bold;">Ante Ćubela</span>
-    </a>
-  </div>
-  <div style="display: inline-block; text-align: center; margin: 8px;">
-    <a href="https://github.com/Mathys0212">
-      <img src="https://github.com/Mathys0212.png" width="60" height="60" style="border-radius:50%" alt="Mathys Cohen"/><br/>
-      <span style="font-size: 1.6em; font-weight: bold;">Mathys Cohen</span>
-    </a>
-  </div>
-  <div style="display: inline-block; text-align: center; margin: 8px;">
-    <a href="https://github.com/CannedOrgi">
-      <img src="https://github.com/CannedOrgi.png" width="60" height="60" style="border-radius:50%" alt="Rahul Vivek"/><br/>
-      <span style="font-size: 1.6em; font-weight: bold;">Rahul Vivek</span>
-    </a>
-  </div>
-</p>
-
-
----
-
-This repository contains our final submission for the [IMC Prosperity 3](https://prosperity.imc.com/) trading competition (2025).
-
 **Final rank:**  
 - 109th globally out of 12,000+ teams  
-- 10th in France out of 300+ teams
+- 10th in France out of 1,000+ teams
 
 |  Sylvain Topeza  | [@Sylvain](https://github.com/Sylvain-Topeza) | [LinkedIn](https://fr.linkedin.com/in/sylvain-topeza)
 
