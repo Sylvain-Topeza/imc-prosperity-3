@@ -43,7 +43,17 @@ This repository contains our final submission for the [IMC Prosperity 3](https:/
 
 **Final rank:**  
 - 109th globally out of 12,000+ teams  
-- 10th in France out of 300+ teams  
+- 10th in France out of 300+ teams
+
+|  Sylvain Topeza  | [@Sylvain-Topeza](https://github.com/Sylvain-Topeza) | [LinkedIn](https://fr.linkedin.com/in/sylvain-topeza)
+
+|  Zakaria El Jaafari  | [@nier2kirito](https://github.com/nier2kirito)                   | [LinkedIn](https://fr.linkedin.com/in/zakaria-el-jaafari/fr)
+
+|  Mathys Cohen  | [@Mathys0212](https://github.com/Mathys0212)   | [LinkedIn](https://fr.linkedin.com/in/mathys-cohen-0a6043326)
+
+|  Ante Ćubela  | [@Ante77](https://github.com/Ante77)            | [LinkedIn](https://hr.linkedin.com/in/ante-1998-cubela)
+
+|  Rahul Vivek  | [@timtakcs](https://github.com/)            | [LinkedIn](https://www.linkedin.com/in/rahul-vivek-aa8084224)
 
 ---
 
