@@ -45,15 +45,15 @@ This repository contains our final submission for the [IMC Prosperity 3](https:/
 - 109th globally out of 12,000+ teams  
 - 10th in France out of 300+ teams
 
-|  Sylvain Topeza  | [@Sylvain-Topeza](https://github.com/Sylvain-Topeza) | [LinkedIn](https://fr.linkedin.com/in/sylvain-topeza)
+|  Sylvain Topeza  | [@Sylvain](https://github.com/Sylvain-Topeza) | [LinkedIn](https://fr.linkedin.com/in/sylvain-topeza)
 
-|  Zakaria El Jaafari  | [@nier2kirito](https://github.com/nier2kirito)                   | [LinkedIn](https://fr.linkedin.com/in/zakaria-el-jaafari/fr)
+|  Zakaria El Jaafari  | [@Zakaria](https://github.com/nier2kirito)                   | [LinkedIn](https://fr.linkedin.com/in/zakaria-el-jaafari/fr)
 
-|  Mathys Cohen  | [@Mathys0212](https://github.com/Mathys0212)   | [LinkedIn](https://fr.linkedin.com/in/mathys-cohen-0a6043326)
+|  Mathys Cohen  | [@Mathys](https://github.com/Mathys0212)   | [LinkedIn](https://fr.linkedin.com/in/mathys-cohen-0a6043326)
 
-|  Ante Ćubela  | [@Ante77](https://github.com/Ante77)            | [LinkedIn](https://hr.linkedin.com/in/ante-1998-cubela)
+|  Ante Ćubela  | [@Ante](https://github.com/Ante77)            | [LinkedIn](https://hr.linkedin.com/in/ante-1998-cubela)
 
-|  Rahul Vivek  | [@timtakcs](https://github.com/)            | [LinkedIn](https://www.linkedin.com/in/rahul-vivek-aa8084224)
+|  Rahul Vivek  | [@Rahul](https://github.com/CannedOrgi)            | [LinkedIn](https://www.linkedin.com/in/rahul-vivek-aa8084224)
 
 ---
 
